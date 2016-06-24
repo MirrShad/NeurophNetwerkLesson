@@ -38,7 +38,8 @@ public class DataAppro implements LearningEventListener{
 			
 			while ((s = br.readLine()) != null) {
 				String[] data = s.split(" ");
-				
+				//only the opening and ending are depend on their own, those others are calculated 
+				//by this two, so I only predict these two  
 //				//process the date
 //				double pointID = getPoint(data[0]);
 //				
